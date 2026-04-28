@@ -1,0 +1,149 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background: #0d1117;
+    color: #fff;
+}
+
+/* HERO */
+.hero {
+    text-align: center;
+    padding: 60px 20px;
+}
+
+.profile {
+    width: 120px;
+    border-radius: 50%;
+    border: 3px solid #ff4d6d;
+}
+
+h1 {
+    font-size: 32px;
+}
+
+h3 {
+    color: #c9d1d9;
+}
+
+h4 {
+    color: #58a6ff;
+}
+
+/* Corrigido: agora aparece */
+span {
+    color: #ff4d6d;
+}
+
+/* COR DO TEXTO DAS TECNOLOGIAS */
+.tag:nth-child(1) {
+    color: #e3e70b; /* PHP */
+}
+
+.tag:nth-child(2) {
+    color: #aa045f; /* CSS */
+}
+
+.tag:nth-child(3) {
+    color: #d0e326; /* HTML */
+}
+
+.tag:nth-child(4) {
+    color: #f04f4f; /* JS */
+}
+
+/* TAGS */
+.tags {
+    margin-top: 15px;
+}
+
+.tag {
+    padding: 6px 12px;
+    border-radius: 20px;
+    margin: 5px;
+    display: inline-block;
+    font-size: 12px;
+    background: #21262d;
+}
+
+.green { background: #238636; }
+.purple { background: #8250df; }
+.blue { background: #1f6feb; }
+.orange { background: #d29922; }
+
+/* PROJETOS */
+.projects {
+    padding: 40px;
+    text-align: center;
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 20px;
+}
+
+.card {
+    background: #161b22;
+    padding: 15px;
+    border-radius: 10px;
+    text-align: left;
+    transition: 0.3s;
+}
+
+.card:hover {
+    transform: scale(1.05);
+}
+
+.card img {
+    width: 100%;
+    border-radius: 8px;
+}
+
+/* CONTATO */
+.contact {
+    text-align: center;
+    padding: 40px;
+}
+
+.contact-list {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 15px;
+}
+
+/* removido conflito duplicado */
+.contact-card {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    width: 280px;
+    padding: 14px 18px;
+
+    background: #161b22;
+    border-radius: 10px;
+
+    text-decoration: none;
+    color: #fff;
+
+    transition: 0.3s;
+    border: 1px solid transparent;
+}
+
+.contact-card i {
+    font-size: 18px;
+}
+
+.contact-card span {
+    flex: 1;
+    margin-left: 12px;
+    text-align: left;
+}
+
+/* Hover mais moderno */
+.contact-card:hover {
+    background: #21262d;
+    border: 1px solid #ff4d6d;
+    transform: translateY(-3px);
+}
